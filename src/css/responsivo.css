@@ -1,0 +1,269 @@
+/*JQuery*/
+
+@media (max-width: 1330px) {
+    div.fundo-camarao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.fundo-camarao img {
+        height: 85vh;
+    }
+}
+
+@media (max-width: 1214px) {
+    .botoes .botao img {
+        width: 160px;
+    }
+}
+
+@media (max-width: 1179px) {
+    .botoes .botao img {
+        width: 155px;
+    }
+}
+
+@media (max-width: 1144px) {
+    .botoes .botao img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 1109px) {
+    .botoes .botao img {
+        width: 145px;
+    }
+}
+
+@media (max-width: 1074px) {
+    ul.botoes {
+        justify-content: space-between;
+        padding: 10px 15px;
+        gap: 5px;
+    }
+
+    .conteudo {
+        padding-top: 70px;
+    }
+
+    .conteudo h2.titulo {
+        font-size: 38px;
+    }
+
+    a#link {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 690px) {
+
+    img.fundo {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .fundo-camarao .img {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .fundo-camarao .img {
+        height: 75vh;
+    }
+
+    img.fundo {
+        height: 75vh;
+    }
+}
+
+@media (max-width: 628px) {
+
+    .conteudo h2.titulo {
+        margin-top: 0;
+    }
+
+    a#link {
+        margin-top: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #fff;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+        gap: 25px;
+    }
+
+    /* fullscreen */
+    .menu-section.on {
+        background-color: #ff0000;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on .nav {
+        display: flex;
+
+        width: 100px;
+        box-shadow: none;
+        border: none;
+        background-color: #ff0000;
+    }
+
+    .menu-section.on ul.botoes {
+        height: 70vh;
+    }
+
+    .botoes .botao img {
+        width: 220px;
+        height: 50px;
+        margin: 10px;
+    }
+
+    .botoes .botao img:hover {
+        transform: scale(1.2);
+        box-shadow: 0 0 10px #ffffff;
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on .nav ul.botoes {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .fundo-camarao .img {
+        height: 70vh;
+    }
+
+    img.fundo {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .fundo-camarao .img {
+        height: 65vh;
+    }
+
+    img.fundo {
+        height: 65vh;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .fundo-camarao .img {
+        height: 60vh;
+    }
+
+    img.fundo {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .fundo-camarao .img {
+        height: 55vh;
+    }
+
+    img.fundo {
+        height: 55vh;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .fundo-camarao .img {
+        height: 50vh;
+    }
+
+    img.fundo {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .fundo-camarao .img {
+        height: 45vh;
+    }
+
+    img.fundo {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .fundo-camarao .img {
+        height: 40vh;
+    }
+
+    img.fundo {
+        height: 40vh;
+    }
+
+    .conteudo .semana {
+        width: 320px;
+    }
+
+    ul.album-fotos {
+        width: 318px;
+        
+    }
+}

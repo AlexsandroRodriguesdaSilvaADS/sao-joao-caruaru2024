@@ -1,0 +1,243 @@
+html,
+body {
+  overflow: scroll;
+  min-height: 100vh;
+}
+
+main.sao-joao {
+  height: 100vh;
+}
+
+header.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.menu-section {
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav {
+  background-color: rgba(26, 54, 91, 0.3);
+  box-shadow: 0 0 10px #ffffff;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 99.5%;
+  min-height: 8vh;
+}
+
+ul.botoes {
+  width: 100vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.botoes .botao img {
+  border: 1px solid rgba(26, 54, 91, 1);
+  border-radius: 50px;
+  width: 165px;
+  height: 50px;
+}
+
+.botoes .botao img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #ffffff;
+}
+
+/*
+.botoes h1.titulo {
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 120px;
+  height: 60px;
+  padding: 2px;
+  text-align: center;
+}
+
+.botoes h1.titulo:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #ffffff;
+}
+*/
+
+.polo {
+  height: 100vh;
+  display: flex;
+}
+
+video.tela {
+  border: 1px solid #ffffff;
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  max-width: 2000px;
+  opacity: 0.8;
+}
+
+.conteudo {
+  margin: auto;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.conteudo h2.titulo {
+  background-color: rgba(26, 54, 91, 0.5);
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 25px;
+  min-width: 45vw;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 80px;
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Secular One";
+  font-weight: 400;
+}
+
+a#link {
+  background-color: rgba(26, 54, 91, 0.5);
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 80px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Secular One";
+  font-weight: 400;
+}
+
+a#link:hover {
+  scale: 1.2;
+}
+
+.conteudo .datas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.conteudo p.descricao {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #ffffff;
+  font-family: "Rubik";
+  font-size: 16px;
+}
+
+.conteudo .semana {
+  /* background-color: rgba(26, 54, 91, 0.5);*/
+  width: 350px;
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  justify-content: center;
+  margin: 6px;
+  /* padding-bottom: 25px;*/
+}
+
+.conteudo h1 {
+  color: #ffffff;
+  font-family: "Rubik";
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+ul.album-fotos {
+  background-color: rgba(26, 54, 91, 0.5);
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 50px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 120px;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul.album-fotos li.foto {
+  width: 75px;
+  height: 75px;
+  margin: 2px;
+  box-shadow: 0 0 10px #ffffff;
+  -webkit-transition: all 0.3s ease-in;
+}
+
+ul.album-fotos li span {
+  position: absolute;
+  top: 45px;
+  left: 4px;
+  width: 90%;
+  background-color: rgba(26, 54, 91, 0.5);
+  opacity: 0;
+  color: #ffffff;
+  font-weight: bolder;
+/*  box-shadow: 0 0 10px #ffffff;*/
+  border-radius: 25px;
+  font-size: 9px;
+  padding: 2px;
+}
+
+ul.album-fotos li:hover {
+  -webkit-transform: scale(1.3);
+}
+
+ul.album-fotos li:hover span {
+  opacity: 1;
+}
+
+div.fundo-camarao {
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+div.fundo-camarao img {
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 25px;
+}
+
+div.programacao {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img.fundo {
+  height: 85vh;
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 25px;
+  object-fit: cover;
+}

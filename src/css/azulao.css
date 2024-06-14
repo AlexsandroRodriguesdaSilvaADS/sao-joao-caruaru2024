@@ -175,6 +175,13 @@ ul.album-fotos li#foto24 {
 }
 
 /*Sábado-22*/
+ul.album-fotos li#foto25a {
+  background: url('../img/atracoes/azulao/sab-22/isabela-moraes.jpg') no-repeat;
+  border-radius: 50px;
+  background-position: 50% 50%;
+  background-size: 80px 80px;
+}
+
 ul.album-fotos li#foto25 {
   background: url('../img/atracoes/azulao/sab-22/sombra-dos-anjos.jpg') no-repeat;
   border-radius: 50px;
@@ -190,7 +197,7 @@ ul.album-fotos li#foto26 {
 }
 
 ul.album-fotos li#foto27 {
-  background: url('../img/atracoes/azulao/sab-22/interrogacao.jpg') no-repeat;
+  background: url('../img/atracoes/azulao/sab-22/blitz.jpg') no-repeat;
   border-radius: 50px;
   background-position: 50% 50%;
   background-size: 80px 80px;

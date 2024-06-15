@@ -437,6 +437,13 @@ ul.album-fotos li#foto60 {
   background-size: 80px 80px;
 }
 
+ul.album-fotos li#foto60a {
+  background: url('../img/atracoes//luiz-gonzaga/sab-29/douglas-leon.jpg') no-repeat;
+  border-radius: 50px;
+  background-position: 50% 50%;
+  background-size: 80px 80px;
+}
+
 ul.album-fotos li#foto61 {
   background: url('../img/atracoes/luiz-gonzaga/sab-29/cesar-menotti-fabiano.jpeg') no-repeat;
   border-radius: 50px;

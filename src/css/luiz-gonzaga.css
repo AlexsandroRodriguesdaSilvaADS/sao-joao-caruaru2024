@@ -1,3 +1,7 @@
+span {
+  border-botton: 1px solid #fff;
+}
+
 /*Sábado-01*/
 ul.album-fotos li#foto01 {
   background: url('../img/atracoes/luiz-gonzaga/sab-01/carlinhos-brown.jpg') no-repeat;

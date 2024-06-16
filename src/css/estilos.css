@@ -192,7 +192,7 @@ ul.album-fotos li.foto {
 
 ul.album-fotos li span {
   position: absolute;
-  top: 45px;
+  bottom: 0;
   left: 4px;
   width: 90%;
   background-color: rgba(26, 54, 91, 0.5);

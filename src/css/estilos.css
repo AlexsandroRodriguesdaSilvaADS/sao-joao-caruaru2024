@@ -212,6 +212,11 @@ ul.album-fotos li:hover span {
   opacity: 1;
 }
 
+ul.album-fotos li span:hover{
+  color: rgba(26, 54, 91, 1);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 div.fundo-camarao {
   min-width: 100vw;
   display: flex;

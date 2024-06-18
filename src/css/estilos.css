@@ -191,11 +191,14 @@ ul.album-fotos li.foto {
 }
 
 ul.album-fotos li span {
+  background: linear-gradient(to right, rgb(26, 54, 91, 0.5), rgba(255, 255, 255, 0.5), rgb(26, 54, 91, 0.5));
+  background-size: 180% 180%;
+  animation: gradient-animation 2s ease infinite;
+  
   position: absolute;
   bottom: 0;
   left: 4px;
   width: 90%;
-  background-color: rgba(26, 54, 91, 0.5);
   opacity: 0;
   color: #ffffff;
   font-weight: bolder;
@@ -214,7 +217,7 @@ ul.album-fotos li:hover span {
 
 ul.album-fotos li span:hover{
   color: rgba(26, 54, 91, 1);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 div.fundo-camarao {

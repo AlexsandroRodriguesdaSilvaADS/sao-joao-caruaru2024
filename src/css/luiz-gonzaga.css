@@ -186,7 +186,7 @@ ul.album-fotos li#foto25 {
 }
 
 ul.album-fotos li#foto26 {
-  background: url('..img/atracoes/luiz-gonzaga/qui-13/yonara.jpg') no-repeat;
+  background: url('../img/atracoes/luiz-gonzaga/qui-13/yonara.jpg') no-repeat;
   border-radius: 50px;
   background-position: 50% 50%;
   background-size: 80px 80px;

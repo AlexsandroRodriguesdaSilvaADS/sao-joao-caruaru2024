@@ -46,15 +46,15 @@ ul.botoes {
 }
 
 .botoes .botao img {
-  border: 1px solid rgba(26, 54, 91, 1);
   border-radius: 50px;
   width: 165px;
   height: 40px;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 .botoes .botao img:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 10px #ffffff;
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease-in;
 }
 
 /*
@@ -197,14 +197,22 @@ ul.album-fotos li span {
   
   position: absolute;
   bottom: 0;
-  left: 4px;
-  width: 90%;
+  left: 0;
+  width: 75px;
   opacity: 0;
   color: rgba(26, 54, 91, 1);
   font-weight: bolder;
-  border-radius: 25px;
-  font-size: 9px;
+  border-radius: 0;
+  font-size: 7px;
   padding: 2px;
+}
+
+ul.album-fotos li span.direita {
+  left: 20px;
+}
+
+ul.album-fotos li span.esquerda {
+  left: -20px;
 }
 
 ul.album-fotos li:hover {

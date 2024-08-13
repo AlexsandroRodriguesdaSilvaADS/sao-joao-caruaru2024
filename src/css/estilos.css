@@ -22,8 +22,8 @@ header.container {
 }
 
 .nav {
-  /*background-color: rgba(26, 54, 91, 0.3);*/
-  box-shadow: 0 0 10px #ffffff;
+  /*background-color: rgba(26, 54, 91, 0.3);
+  box-shadow: 0 0 10px #ffffff;*/
   position: fixed;
   z-index: 10;
   display: flex;
